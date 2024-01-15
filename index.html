@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Energy Band Gap of Semiconductor</title>
+<style>
+    .box1{
+        color: white;
+        background-color: #3498db;
+    }
+   .box{
+    border: 1px solid grey;
+    font-size: small;
+    width: 380px;
+    height: 400px;
+   }
+    #imageContainer {
+            display: none;
+
+            text-align: center;
+        }
+        img {
+            width: 150px;
+            margin: 10px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .button {
+        padding: 10px;
+        margin-right: 3px;
+       margin-bottom: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        width: 125px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 5px;
+       
+    }
+    .button-container {
+       /* display: flex;*/
+       /* gap: 1cm;*/
+        margin: 8px;
+      
+    }
+</style>
+    </head>
+    <body>
+        <div class="container">
+           <h1><b>Energy Band Gap of Semiconductor</b></h1>
+        </div>
+
+
+
+<button id="enableButton" class=" btn1" onclick="showImages()">Enable Power</button>
+<div class="box" id="imageContainer">
+    <h2 class="box1">Graph for representing the energy band gap in a semiconductor experiment</h2>
+    <div>
+    <img src="download.png" alt="Image 1">
+    <img src="download.png" alt="Image 2">
+</div>
+<div>
+    <img src="download.png" alt="Image 3">
+    <img src="download.png" alt="Image 4">
+</div>
+<div class="button-container margin">
+    <button class="button">image 1</button>
+    <button class="button">image 2</button>
+    <button class="button">image 3</button>
+    <button class="button">image 4</button>
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+<button type="Disable Power" class="btn1">place contain</button>
+               <div class="button-container">
+                <button class="button">P-N Diode</button>
+                <button class="button">Battery</button>
+               </div>
+               <div class="button-container">
+                <button class="button">Ammeter</button>
+                <button class="button">Voltmeter</button>
+                </div>
+                <div class="button-container">
+                <button class="button">Point</button>
+                <button class="button">Connect</button>
+             </div>
+             <button type="Disable Power" class="btn1">place thermometer</button>
+             <div class="button-container">
+                <button class="button">Undo</button>
+                <button class="button">Redo</button>
+               </div>
+               <button type="Disable Power" class="btn">Reset</button>
+               <button type="Disable Power" class="btn">message</button>
+               
+               <div class="input-group" id="btton">
+               
+                <label for="loginUser"></label>
+                <select name="books" required>
+                    <option value="">select voltage</option>
+                    <option value="">1</option>
+                    <option value="html">2</option>
+                    <option value="css">3</option>
+                    <option value="html">4</option>
+                    <option value="css">5</option>
+                  </select>
+                  <button type="Disable Power" class="button1">click</button>
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="input-group"><br>
+   <label for="temperature">slide to choose tempeature</label>
+   <br><br>
+   <input type="range" id="temperature" min="0" max="100" value="50" class="temperature-slider">
+   <br>
+   <span id="temperature-label">selected tempeature is 50°C</span>
+ </div>
+ <br><br><br><br><br><br><br><br><br><br>
+ <div class="input-group buttons" id="butt"><br>
+   <h3>get reverse saturation current</h3><br>
+   <div class="button-container" id="blue">
+      <button class="" id="my-button">find here</button><br>
+      <br><br>
+         <label for="temperature" class="bty">&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEAD&lt;&lt;&lt;&lt;&lt;&lt;&lt;HEAD</label>
+         <br><br>
+      <br><br>
+      </div>
+   
+<h6 class="busy">
+   Respected value is&nbsp;
+<span id="sat_cur" style="font-weight: bold;color: red">µA</span>
+
+</h6><br>
+<h3 class="bts">=======</h3><br>
+<h6 class="busy">
+   Respected value is&nbsp;
+<span id="sat_cur" style="font-weight: bold;color: red">µA</span>
+</h6><br> 
+<h3 class="bts">>>>>>>>></h3><br>
+
+
+                                    
+                                
+86c9944befd7438d64fffc1a76af1db576782d1c<br><br>
+<h3 class="bts">=======</h3><br>
+<h6 class="busy">
+   Respected value is&nbsp;
+<span id="sat_cur" style="font-weight: bold;color: red">µA</span>
+
+</h6><br>
+<h3 class="bts">>>>>>>>></h3><br>
+
+ b6df246e59a1e509091beb42bae39dc3802dd900<br>
+ <br>
+ <h1 class="byy" id="bn">FORMULAS</h1><br><br>
+
+ <img src="formula.png">
+
+ <button class="btn btn-primary" style="width: 200px;margin-left: 60px; padding-left:  20px 10px 0 0 250px" onclick="calculate_table()">Calculate Data</button>
+   
+   <button class="btn btn-primary disabled"  id="graph" onclick="draw_graph()" disabled="">Draw Graph</button>
+<br><br>
+<div>
+   <h6 class="text-center">NOTE : Enter value of X coordinate and Y coordinate seperated with comma( , )</h6>
+   <br>
+   <table style="border: none;text-align: center;width:100%;
+       background-color: lightpink;border-radius: 8px;">
+       <tbody><tr>
+
+           <td style="border: none" class="p-3">
+            <div class="button-container">
+               <input type="text" style="width:200px;" id="ip1" placeholder="Enter First Coordinate">
+               <input type="text" style="width:200px " id="ip1" placeholder="Enter Second Coordinate">
+               <button class="button">find slope</button>
+            </td>
+                           
+             
+         </tr>
+
+     </tbody></table>
+              </div>
+              <br>
+                  <br>
+               <div>
+                     <h6 class="text-center">NOTE : Enter value of Slope calculated above in the below box </h6>
+                     <table style="border: none;text-align: center;width: 150%;
+                     background-color: lightpink;border-radius: 8px;">
+                         <tbody><tr>
+             
+                     <td style="border: none" class="pt-3 pb-3 pl-3 button-container" id="ld">
+           <span>Energy Band Gap (E<sub>g</sub>) =</span>&nbsp;
+           <input type="text" style="width:100px;" id="slp_value" placeholder="Enter Slope">/5.04 
+           <button class="btn btn-primary disabled button" id="eg_button" style="cursor: not-allowed" disabled="" onclick="cal_eg()">Calculate</button>
+                             </td>
+                           
+             
+                         </tr>
+             
+                     </tbody></table>
+                 
+</div>
+<script>
+   function updateTemperature() {
+    var temperatureSlider = document.getElementById('temperature');
+    var temperatureLabel = document.getElementById('temperature-label');
+    temperatureLabel.innerHTML = 'Selected Temperature: ' + temperatureSlider.value + '°C';
+   }
+   function showImages() {
+    document.getElementById('imageContainer').style.display = 'block';
+
+   }
+
+
+
+
+
+   
+
+/*document.addEventListener('DOMContentLoaded', function () {
+    const temperatureSlider = document.getElementById('temperature');
+    const temperatureDisplay = document.getElementById('temperature-label');
+  
+   // Initialize the display value
+    temperatureDisplay.textContent = temperatureSlider.value;
+  
+    // Update the display value when the slider value changes
+    temperatureSlider.addEventListener('input', function () {
+      temperatureDisplay.textContent = temperatureSlider.value;
+    });
+  });*/
+</script>
+
+
+
+
+                  
+
+             
+             
+             
+             
+             
+             
+        
+
+          </body>
+          </html>
+         

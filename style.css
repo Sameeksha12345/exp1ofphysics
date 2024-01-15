@@ -1,0 +1,425 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: orange;
+    color: white; /* Optional: Set text color to white for better visibility */
+    padding: 10px; /* Optional: Add padding for better aesthetics */
+    white-space: nowrap; 
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.btn{
+    
+    border:80px;
+    padding:20px;
+    margin: 10px;
+    background-color: mediumturquoise;
+    text-align: center;
+    font-size:larger;
+    border-width: 40px;
+    height: 30px;
+    left: 20px;
+    right: auto;
+    top: 20px;
+    width: 250px;
+
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+
+    
+}
+.btn1{
+  
+        border:80px;
+        padding:20px;
+        margin: 10px;
+        background-color: deeppink;
+        text-align: center;
+        font-size:larger;
+        border-width: 50px;
+        height: 40px;
+        left: 20px;
+        right: auto;
+        top: 20px;
+        width: 250px;
+    
+    
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        border-radius: 10px;
+    
+        
+    }
+    .button-container {
+        display: flex;
+       /* gap: 1cm;*/
+        margin: 8px;
+      
+    }
+    .button {
+        padding: 10px;
+        margin-right: 3px;
+       margin-bottom: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        width: 125px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 5px;
+       
+    }
+    .input-group{
+
+        /*position:absolute;*/
+       
+ float: left;
+       
+
+        margin:10px;
+        margin-left:10px;
+        
+       padding: 5px;
+        border:50px;
+        width: 300px;
+        height: 100px;
+        background-color: indianred;
+        border-radius: 15px;
+         /* Adjust padding to control the top and bottom space this code is written by  */
+        margin-bottom: 5px; 
+        display: inline-block;
+        margin-right: 3px;
+        line-height: normal;
+        vertical-align: top;
+       
+    }
+    .button1{
+        margin: 10px;
+        padding: 10px;
+        margin-right: 3px;
+       margin-bottom: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        width: 125px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 5px;
+
+       /* border:80px;
+        padding:20px;
+        margin: 10px;
+        background-color: mediumturquoise;
+        text-align: center;
+        font-size:larger;
+        border-width: 40px;
+        height: 30px;
+        left: 20px;
+        right: auto;
+        top: 20px;
+        width: 100px;
+       
+    
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        border-radius: 10px;*/
+    
+
+        
+    }
+    #btton{
+        text-align: center;
+    }
+/*here i started*/
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        /*margin: 50px;*/
+        margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+ 
+    }
+
+    #temperature {
+        width: 80%;
+        /*margin-top: 20px;*/
+    }
+    
+
+    #temperature-label {
+        display:block;
+      /*  margin-top: 20px;*/
+        font-size: 18px;
+      
+        
+    }
+      /*  border-left: 200px solid #333; Set the border properties 
+        padding-left: 10px;*/
+        
+       /*     border:200px;
+    width: 300px;
+    height: 300px;*/
+
+/*.buttons{
+
+
+
+    border:50px;
+    width: 1000px;
+    height: 300px;
+    background-color: indianred;
+    border-radius: 15px;
+} */
+        
+#butt{
+    border:200px;
+    width: 300px;
+    height: 300px;
+
+    border:50px;
+    width: 400px;
+    height: 480px;
+    background-color: indianred;
+    border-radius: 15px;
+  
+}
+.btns{
+    border:200px;
+    width: 200px;
+    height: 130px;
+
+    border:50px;
+    width: 200px;
+    height: 130px;
+    background-color: indianred;
+    border-radius: 15px;
+  
+}
+
+.styled-sentence {
+    font-size: 10px;
+    color: #333; 
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+#blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+/*.head-marker {
+
+    color: white;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+          <div class="head-marker">&lt;&lt;&lt;&lt;HEAD&lt;&lt;&lt;&lt;</div>
+
+}*/
+
+
+
+
+
+#my-button {
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-right: 45px;
+    font-size: 16px;
+  /*  margin-bottom: 30px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin: 3px;*/
+}
+
+/*.head-marker {
+    background-color: #e44d26;
+    color: white;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+}*/
+
+#my-button{
+    margin-bottom: 20px;
+}
+
+.bty{
+    margin-top: 50px;
+    margin-right: 170px;
+    position: absolute;
+    text-align: left;
+    margin-left: 80px;
+  
+}
+#sat_cur{
+   font-size: 15px;
+}
+.busy{
+    font-size: 15px;
+    margin-right: 60px;
+}
+.bts{
+    font-weight: normal;
+    margin-right: 90px;
+}
+.byy{
+    font-size: large;
+    margin: 20px;
+font-weight: bold;
+text-align: center;
+
+border:50px;
+width: 300px;
+height: 30px;
+background-color: indianred;
+border-radius: 10px;
+margin-right: 40px;
+}
+#bn{
+   
+    padding-top: 20px;
+}
+.text-center{
+    font-size: medium;
+
+}
+#graph{
+ position: relative;
+ top: 20px;
+ right: 20px;
+ left: 20px;
+ margin-left: 250px;
+ width: 200px;
+}
+#ip1{
+   /* display:inline-block;*/
+    margin:20px;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#ld{
+    margin-top: 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+
+
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #temperature {
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        #temperature-label {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function updateTemperature() {
+            var temperatureSlider = document.getElementById('temperature');
+            var temperatureLabel = document.getElementById('temperature-label');
+            temperatureLabel.innerHTML = 'Selected Temperature: ' + temperatureSlider.value + '°C';
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Temperature Slider</h1>
+
+    <input type="range" id="temperature" min="0" max="100" value="25" oninput="updateTemperature()">
+    <span id="temperature-label">Selected Temperature: 25°C</span>
+
+</body>
+</html>*/
+
+/* <h3>get reverse saturation current</h3><br>
+   <div class="button-container" id="blue">
+      <button class="button">find here</button>
+</div>
+<br><br><br><br><br><br><br><br>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
